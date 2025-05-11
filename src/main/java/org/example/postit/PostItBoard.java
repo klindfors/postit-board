@@ -52,6 +52,7 @@ public class PostItBoard extends Application {
             center.getChildren().add(note); //adds note to center pane
             newButton.setDisable(false); //button clickable again
             center.setOnMouseClicked(null);
+            //..
         }
     }
 
